@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Latihan Perkalian</title>
+  </head>
+
+  <body>
+    <audio id="myAudio">
+      <source src="sound/sfx_salah.mp3" type="audio/mpeg" />
+    </audio>
+
+    <header>
+      <div class="container">
+        <div class="nav">
+          <h2>
+            <span><i class="fa fa-trophy" aria-hidden="true"></i></span>
+            Math Quiz 4 Kids
+          </h2>
+          <nav>
+            <ul>
+              <li><a href="pertambahan.html">Pertambahan</a></li>
+              <li><a href="pengurangan.html">Pengurangan</a></li>
+              <li class="current"><a href="perkalian.html">Perkalian</a></li>
+              <li><a href="pembagian.html">Pembagian</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="wrapper">
+      <div class="equation">
+        <h1 id="num1" style="color: #e40066"></h1>
+        <h1 style="color: #03cea4">*</h1>
+        <h1 id="num2" style="color: #f4b333">1</h1>
+        <h1 style="color: #fb4d3d">=</h1>
+        <h1 style="color: #345995">?</h1>
+      </div>
+      <div class="answer-options">
+        <div class="options" style="background-color: #fb4d3d">
+          <h1 id="option1">1</h1>
+        </div>
+        <div class="options" style="background-color: #03cea4">
+          <h1 id="option2">2</h1>
+        </div>
+        <div class="options" style="background-color: #f4b333">
+          <h1 id="option3">3</h1>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/perkalian.js"></script>
+  </body>
+</html>
